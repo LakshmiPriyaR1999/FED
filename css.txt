@@ -1,0 +1,77 @@
+/* 1A */
+h1 {
+  color: blue;
+}
+
+/* 2A */
+p {
+  font-size: 16px;
+}
+
+/* 3#id */
+#header {
+  background-color: #eee;
+}
+
+/* 4A  B */
+ul li {
+  list-style-type: square;
+}
+
+/* 5#id  A */
+#main-content p {
+  margin: 10px;
+}
+
+/* 6.classname */
+.info-box {
+  border: 1px solid #ccc;
+}
+
+/* 7A.className */
+section.sidebar {
+  width: 30%;
+}
+
+/* 8Put your back into it! */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* 9A, B */
+h2, .highlight {
+  color: green;
+}
+
+/* 10* */
+* {
+  box-sizing: border-box;
+}
+
+/* 11A  * */
+article * {
+  line-height: 1.5;
+}
+
+/* 12A + B */
+h3 + p {
+  font-weight: bold;
+}
+
+/* 13A ~ B */
+ul ~ p {
+  text-decoration: underline;
+}
+
+/* 14A > B */
+nav > ul {
+  display: flex;
+}
+
+/* 15:first-child */
+li:first-child {
+  font-weight: bold;
+}
+
+/* 16:only-child */
